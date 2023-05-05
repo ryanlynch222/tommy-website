@@ -1,6 +1,5 @@
 import React from "react";
 import headshot from "./images/headshot.png";
-import portrait from "./images/portrait.png";
 import Header from "./components/header";
 
 import "./App.css";
