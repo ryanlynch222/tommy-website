@@ -1,5 +1,5 @@
 .App {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
 }
 
 .headshot {
@@ -10,13 +10,12 @@
   margin-right: auto;
 }
 
-
-.clickableBackground{
-  font-family: 'Sans-Serif';
+.clickableBackground {
+  font-family: "Sans-Serif";
   font-style: italic;
   font-weight: 400;
   font-size: 30px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   display: block;
   width: 50%;
@@ -24,7 +23,7 @@
   margin-left: auto;
   margin-right: auto;
   background: #090909;
-  padding: .01px;
+  padding: 0.01px;
 }
 
 .disco {
@@ -32,11 +31,11 @@
 }
 
 .album-grid {
-  font-family: 'Sans-Serif';
+  font-family: "Sans-Serif";
   font-style: italic;
   font-weight: 400;
   font-size: 12px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   width: 50%;
   height: 50%;
@@ -44,7 +43,12 @@
   margin-right: auto;
   display: flex;
   flex-wrap: nowrap;
-  background-image: linear-gradient(to bottom right, #090909 50%, transparent 50%);
+  background-image: linear-gradient(
+    to bottom right,
+    #090909 50%,
+    transparent 50%
+  );
+  padding-bottom: 50px;
 }
 
 .album {
@@ -56,4 +60,24 @@
 .album img {
   width: 100%;
   height: auto;
+}
+
+.aboutMe {
+  font-family: "Sans-Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #090909;
+  padding: 0.01px;
+  display: flex;
+}
+.aboutMe img {
+  width: 50%;
 }
