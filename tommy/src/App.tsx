@@ -42,7 +42,7 @@ const aboutMe = [
   {
     header: "About Me: ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque molestiae consequuntur eveniet minus eum dolor fugit delectus, illo ducimus blanditiis est in modi exercitationem corrupti recusandae, beatae accusamus qui.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque molestiae consequuntur eveniet minus eum dolor fugit delectus, illo ducimus blanditiis est in modi exercitationem corrupti recusandae, beatae accusamus qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque molestiae consequuntur eveniet minus eum dolor fugit delectus, illo ducimus blanditiis est in modi exercitationem corrupti recusandae, beatae accusamus qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque molestiae consequuntur eveniet minus eum dolor fugit delectus, illo ducimus blanditiis est in modi exercitationem corrupti recusandae, beatae accusamus qui.",
     contact: "Contact: tommytomsomething@gmail.com",
     image: require("./images/portrait.png"),
   },
