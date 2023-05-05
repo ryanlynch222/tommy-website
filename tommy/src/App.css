@@ -62,22 +62,36 @@
   height: auto;
 }
 
-.aboutMe {
+.about {
   font-family: "Sans-Serif";
   font-style: italic;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 14px;
   color: #ffffff;
-  text-align: center;
-  display: block;
-  width: 50%;
-  height: 50%;
+  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
   background: #090909;
   padding: 0.01px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1b1b1b;
 }
-.aboutMe img {
+
+.left {
+  margin-top: -13%;
+  margin-left: 20px;
+  margin-right: 115px;
   width: 50%;
+}
+
+.right {
+  width: 50%;
+  text-align: center;
+  margin-left: -10%;
+}
+
+.about img {
+  max-width: 100%;
 }

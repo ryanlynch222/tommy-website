@@ -1,6 +1,7 @@
 import React from "react";
 import headshot from "./images/headshot.png";
 import portrait from "./images/portrait.png";
+import Header from "./components/header";
 
 import "./App.css";
 
@@ -37,9 +38,21 @@ const albums = [
   },
 ];
 
+const aboutMe = [
+  {
+    header: "About Me: ",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque molestiae consequuntur eveniet minus eum dolor fugit delectus, illo ducimus blanditiis est in modi exercitationem corrupti recusandae, beatae accusamus qui.",
+    contact: "Contact: tommytomsomething@gmail.com",
+    image: require("./images/portrait.png"),
+  },
+];
+
 function App() {
   return (
     <div className="App">
+      <Header />
+
       <header className="App-header"></header>
       <img className="headshot" src={headshot} alt="headshot" />
       <div className="clickableBackground">
@@ -57,13 +70,18 @@ function App() {
       </div>
 
       <div className="aboutMe">
-        <p className="aboutText">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          eaque molestiae consequuntur eveniet minus eum dolor fugit delectus,
-          illo ducimus blanditiis est in modi exercitationem corrupti
-          recusandae, beatae accusamus qui.
-        </p>
-        <img className="portrait" src={portrait} alt="portrait" />
+        {aboutMe.map((about, index) => (
+          <div key={index} className="about">
+            <div className="left">
+              <h4>{about.header}</h4>
+              <p>{about.description}</p>
+              <p>{about.contact}</p>
+            </div>
+            <div className="right">
+              <img className="portrait" src={about.image} alt={about.header} />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

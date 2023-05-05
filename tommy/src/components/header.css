@@ -1,0 +1,40 @@
+.header {
+  background: #000000;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding: 0.01px;*/
+  font-family: "Sans-Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.header button {
+  border-radius: 8px;
+  font-family: "Koulen";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 7px;
+  color: #ffffff;
+  height: 30px;
+  background-color: #000000;
+  border: none;
+  margin-left: -0%;
+  margin-right: 1%;
+  height: 25px;
+  width: 70px;
+}
+
+#whiteButton {
+  background-color: white;
+  color: black;
+}
+
+.header p {
+  margin-right: 35%;
+}
